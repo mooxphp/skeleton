@@ -18,7 +18,7 @@
         }
     ],
     "require": {
-        "moox/core": "4.0.0-beta.3"
+        "moox/core": "3.1.123"
     },
     "autoload": {
         "psr-4": {
@@ -30,6 +30,13 @@
             "providers": [
                 "Moox\\Skeleton\\SkeletonServiceProvider"
             ]
+        },
+        "moox": {
+            "title": "Moox Skeleton",
+            "info": "No entity, just an empty package.",
+            "stability": "stable",
+            "type": "moox-plugin",
+            "template": true
         }
     },
     "minimum-stability": "stable",
